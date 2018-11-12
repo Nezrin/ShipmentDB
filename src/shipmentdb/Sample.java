@@ -111,7 +111,7 @@ public class Sample {
         {
             System.out.println("Adding Parts");
             parts.put(new PartKey("P1"),
-                      new PartValue("Nut12", "Red",
+                      new PartValue("Nut", "Red",
                                     new Weight(12.0, Weight.GRAMS),
                                     "London"));
             parts.put(new PartKey("P2"),
